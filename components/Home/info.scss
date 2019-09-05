@@ -12,8 +12,8 @@
     padding: 80px; 
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 50px 50px 50px;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 50px 50px 60px;
     grid-template-areas:
        "title title title image image image"
        "name name name image image image"
@@ -66,6 +66,8 @@ img {
     height: 250px;
     border-radius: 50%;
     box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+    position: relative;
+    left: 70px;
 }
  
 

@@ -109,7 +109,7 @@ function Info() {
     loop: true,
     typeSpeed: 70,
     backSpeed: 60,
-    strings: ["Computer Programmer", "JavaScript Developer", "MERN Stack Developer", "Team Player", "Competitive Problem Solver"],
+    strings: ["Computer Programmer", "JavaScript Developer", "MERN Stack Developer", "Team Player", "Problem Solver"],
     backDelay: 650,
     className: "self-typed",
     __source: {
