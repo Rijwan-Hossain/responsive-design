@@ -14,12 +14,12 @@ function Info() {
                 loop 
                 typeSpeed={70} 
                 backSpeed={60} 
-                strings={["Computer Programmer", "JavaScript Developer", "MERN Stack Developer", "Team Player", "Problem Solver"]} 
+                strings={["Software Engineer", "Computer Programmer", "JavaScript Developer", "MERN Stack Developer", "Team Player", "Problem Solver"]} 
                 backDelay={650}  
                 className="self-typed" 
             /> 
 
-            <img src="/static/images/me.jpg" alt="Rijwan Hossain" /> 
+            <img src="/static/images/me.jpg" alt="Rijwan Hossain" />
             <Button 
                 download="CV.pdf" 
                 className="cv" 

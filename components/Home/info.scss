@@ -72,7 +72,720 @@ img {
  
 
 
+// Media Query
+// Small laptop
+@media screen and (max-width: 1024px) {
+    .typed { 
+        grid-area: typed;
+        font-size: 20px;
+        color: rgb(68, 68, 68);
+        padding-left: 60px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 20px;
+        // font-weight: bold;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -92px;
+    } 
+} 
 
+// // Tab 
+// @media screen and (max-width: 768px) { 
+//     .container { 
+//         width: 65%; 
+//         margin: 0 auto; 
+//         background: rgb(255, 255, 255); 
+//         padding: 80px; 
+        
+//         display: grid; 
+//         grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
+//         grid-template-rows: 70px 50px 50px 60px;
+//         grid-template-areas:
+//            "title title title image image image"
+//            "name name name image image image"
+//            "typed self-typed self-typed image image image"
+//            "cv cv cv image image image";
+//         grid-row-gap: 0px;
+//         grid-column-gap: 70px;
+//     }  
+//     .hello { 
+//         grid-area: title;
+//         font-size: 50px;
+//         color: rgb(29, 29, 29);
+//         padding-left: 60px;
+//     }
+     
+//     .name { 
+//         grid-area: name;
+//         font-size: 24px;
+//         color: rgb(29, 29, 29);
+//         padding-left: 60px;
+//     }
+//     .typed { 
+//         grid-area: typed;
+//         font-size: 15px;
+//         color: rgb(68, 68, 68);
+//         padding-left: 60px;
+//     } 
+//     .self-typed { 
+//         grid-area: self-typed;
+//         font-size: 15px;
+//         color: rgb(15, 15, 15);
+//         position: relative;
+//         left: -65px;
+//     } 
+//     img { 
+//         grid-area: image;
+//         height: 210px;
+//         border-radius: 50%;
+//         box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+//         position: relative;
+//         left: 20px;
+//     }
+// } 
+
+
+
+
+
+// Big mobile
+@media screen and (max-width: 1000px) { 
+    .container { 
+        width: 75%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 40px; 
+        
+        display: grid; 
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 40px 50px 50px;
+        grid-template-areas:
+           "title title title image image image"
+           "name name name image image image"
+           "typed self-typed self-typed image image image"
+           "cv cv cv image image image";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 28px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 18px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -32px;
+    } 
+    img { 
+        grid-area: image;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+        position: relative;
+        // left: 50px;
+    } 
+    .cv { 
+        grid-area: cv;
+        width: 150px;
+        height: 40px; 
+        position: relative;
+        left: 5px;
+    }
+} 
+// Big mobile
+@media screen and (max-width: 900px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 40px; 
+        
+        display: grid; 
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 40px 50px 50px;
+        grid-template-areas:
+           "title title title image image image"
+           "name name name image image image"
+           "typed self-typed self-typed image image image"
+           "cv cv cv image image image";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 25px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 18px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -32px;
+    } 
+    img { 
+        grid-area: image;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+        position: relative;
+        // left: 50px;
+    } 
+    .cv { 
+        grid-area: cv;
+        width: 150px;
+        height: 40px; 
+        position: relative;
+        left: 5px;
+    }
+} 
+
+
+// Big mobile
+@media screen and (max-width: 800px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 40px; 
+        
+        display: grid; 
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 30px 50px 50px;
+        grid-template-areas:
+           "title title title image image image"
+           "name name name image image image"
+           "typed self-typed self-typed image image image"
+           "cv cv cv image image image";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 18px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 15px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 15px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -43px;
+    } 
+    img { 
+        grid-area: image;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+        position: relative;
+        // left: 50px;
+    } 
+    .cv { 
+        grid-area: cv;
+        width: 150px;
+        height: 40px; 
+        position: relative;
+        left: 5px;
+    }
+} 
+
+
+// Big mobile
+@media screen and (max-width: 650px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 40px; 
+        
+        display: grid; 
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 30px 50px 50px;
+        grid-template-areas:
+           "title title title image image image"
+           "name name name image image image"
+           "typed self-typed self-typed image image image"
+           "cv cv cv image image image";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 18px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 15px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 15px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -43px;
+    } 
+    img { 
+        grid-area: image;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+        position: relative;
+        // left: 50px;
+    } 
+    .cv { 
+        grid-area: cv;
+        width: 150px;
+        height: 40px; 
+        position: relative;
+        left: 5px;
+    }
+} 
+
+// Big mobile
+@media screen and (max-width: 600px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 40px; 
+        
+        display: grid; 
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 30px 50px 50px;
+        grid-template-areas:
+           "title title title image image image"
+           "name name name image image image"
+           "typed self-typed self-typed image image image"
+           "cv cv cv image image image";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 18px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 15px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 15px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -43px;
+    } 
+    img { 
+        grid-area: image;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+        position: relative;
+        // left: 50px;
+    } 
+    .cv { 
+        grid-area: cv;
+        width: 150px;
+        height: 40px; 
+        position: relative;
+        left: 5px;
+    }
+} 
+
+
+
+// Big mobile
+@media screen and (max-width: 500px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 40px; 
+        
+        display: grid; 
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 30px 50px 50px;
+        grid-template-areas:
+           "title title title image image image"
+           "name name name image image image"
+           "typed self-typed self-typed image image image"
+           "cv cv cv image image image";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 18px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 15px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 15px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -43px;
+    } 
+    img { 
+        grid-area: image;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+        position: relative;
+        // left: 50px;
+    } 
+    .cv { 
+        grid-area: cv;
+        width: 150px;
+        height: 40px; 
+        position: relative;
+        left: 5px;
+    }
+} 
+
+// Big mobile
+@media screen and (max-width: 425px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 40px; 
+        
+        display: grid; 
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 30px 50px 50px;
+        grid-template-areas:
+           "title title title image image image"
+           "name name name image image image"
+           "typed self-typed self-typed image image image"
+           "cv cv cv image image image";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 18px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 15px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 15px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -43px;
+    } 
+    img { 
+        grid-area: image;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+        position: relative;
+        left: 10px;
+    } 
+    .cv { 
+        grid-area: cv;
+        width: 150px;
+        height: 40px; 
+        position: relative;
+        left: 5px;
+    }
+}
+
+
+
+
+
+// Middum mobile
+@media screen and (max-width: 375px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 20px; 
+        
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 50px 50px 50px;
+        grid-template-areas:
+           "image image image"
+           "name name name"
+           "typed self-typed self-typed"
+           "cv cv cv";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        display: none;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 25px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        line-height: 50px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 18px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -30px;
+    } 
+    img { 
+        grid-area: image;
+        height: 340px;
+        border-radius: 1%;
+        position: relative;
+        box-shadow: 0px 0px 0px 0px;
+    } 
+    .cv { 
+        grid-area: cv;
+        height: 40px; 
+        width: 100%;
+        position: relative;
+        left: 5px;
+        padding-right: 10px;
+    }
+}
+
+
+
+// Small mobile
+@media screen and (max-width: 330px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 20px; 
+        
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 50px 50px 50px;
+        grid-template-areas:
+           "image image image"
+           "name name name"
+           "typed self-typed self-typed"
+           "cv cv cv";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        display: none;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 20px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        line-height: 50px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 18px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -18px;
+    } 
+    img { 
+        grid-area: image;
+        height: 280px;
+        border-radius: 1%;
+        position: relative;
+        box-shadow: 0px 0px 0px 0px;
+    } 
+    .cv { 
+        grid-area: cv;
+        height: 40px; 
+        width: 100%;
+        position: relative;
+        left: 5px;
+        padding-right: 10px;
+    }
+}
+
+
+
+// mini mobile
+@media screen and (max-width: 300px) { 
+    .container { 
+        width: 100%; 
+        margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 20px; 
+        
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 50px 50px 50px;
+        grid-template-areas:
+           "image image image"
+           "name name name"
+           "typed self-typed self-typed"
+           "cv cv cv";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        display: none;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 18px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        line-height: 50px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 18px;
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: -15px;
+    } 
+    img { 
+        grid-area: image;
+        height: 250px;
+        border-radius: 1%;
+        position: relative;
+        box-shadow: 0px 0px 0px 0px;
+    } 
+    .cv { 
+        grid-area: cv;
+        height: 40px; 
+        width: 100%;
+        position: relative;
+        left: 5px;
+        padding-right: 10px;
+    }
+}
 
 
 
