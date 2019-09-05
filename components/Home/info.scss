@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+ }
+ 
+
+.container { 
+    width: 65%; 
+    margin: 0 auto; 
+    background: rgb(255, 255, 255); 
+    padding: 80px; 
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 50px 50px 50px;
+    grid-template-areas:
+       "title title title image image image"
+       "name name name image image image"
+       "typed self-typed self-typed image image image"
+       "cv cv cv image image image";
+    grid-row-gap: 0px;
+    grid-column-gap: 100px;
+}  
+
+.hello { 
+    grid-area: title;
+    font-size: 70px;
+    color: rgb(29, 29, 29);
+    padding-left: 60px;
+}
+ 
+.name { 
+    grid-area: name;
+    font-size: 33px;
+    color: rgb(29, 29, 29);
+    padding-left: 60px;
+}
+ 
+.typed { 
+    grid-area: typed;
+    font-size: 24px;
+    color: rgb(68, 68, 68);
+    padding-left: 60px;
+    // border: 1px solid;
+} 
+.self-typed { 
+    grid-area: self-typed;
+    font-size: 24px;
+    // font-weight: bold;
+    color: rgb(15, 15, 15);
+    position: relative;
+    left: -92px;
+    // border: 1px solid;
+} 
+ 
+.cv { 
+    grid-area: cv;
+    width: 150px;
+    position: relative;
+    left: 60px;
+}
+ 
+
+img { 
+    grid-area: image;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px 5px rgb(211, 211, 211);
+}
+ 
+
+
+
+
+
+
