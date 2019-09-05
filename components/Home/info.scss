@@ -42,7 +42,6 @@
     font-size: 24px;
     color: rgb(68, 68, 68);
     padding-left: 60px;
-    // border: 1px solid;
 } 
 .self-typed { 
     grid-area: self-typed;
@@ -51,12 +50,12 @@
     color: rgb(15, 15, 15);
     position: relative;
     left: -92px;
-    // border: 1px solid;
 } 
  
 .cv { 
     grid-area: cv;
     width: 150px;
+    height: 40px; 
     position: relative;
     left: 60px;
 }

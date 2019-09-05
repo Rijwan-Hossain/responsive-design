@@ -203,7 +203,7 @@ function Info() {
     loop: true,
     typeSpeed: 70,
     backSpeed: 60,
-    strings: ["Computer Programmer", "JavaScript Developer", "React-Redux Developer", "MERN Stack Developer", "Team Player", "Problem Solver"],
+    strings: ["Computer Programmer", "JavaScript Developer", "MERN Stack Developer", "Team Player", "Competitive Problem Solver"],
     backDelay: 650,
     className: "self-typed",
     __source: {
@@ -213,16 +213,17 @@ function Info() {
     __self: this
   }), __jsx("img", {
     src: "/static/images/me.jpg",
-    alt: "",
-    align: "left",
+    alt: "Rijwan Hossain",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+    download: "CV.pdf",
     className: "cv",
     color: "primary",
+    href: "/static/CV.pdf",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23

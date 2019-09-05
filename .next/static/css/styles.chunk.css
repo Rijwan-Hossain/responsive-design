@@ -50,6 +50,7 @@
 .cv {
   grid-area: cv;
   width: 150px;
+  height: 40px;
   position: relative;
   left: 60px; }
 
