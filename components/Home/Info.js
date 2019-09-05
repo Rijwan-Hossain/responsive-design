@@ -13,9 +13,16 @@ function Info() {
             <Typed 
                 loop 
                 typeSpeed={70} 
-                backSpeed={60} 
-                strings={["Software Engineer", "Computer Programmer", "JavaScript Developer", "MERN Stack Developer", "Team Player", "Problem Solver"]} 
-                backDelay={650}  
+                backSpeed={70} 
+                strings={[
+                    "Software Engineer",  
+                    "JavaScript Developer", 
+                    "MERN Stack Developer", 
+                    "Problem Solver",
+                    "Quick Learner", 
+                    "Team Player" 
+                ]} 
+                backDelay={750}  
                 className="self-typed" 
             /> 
 

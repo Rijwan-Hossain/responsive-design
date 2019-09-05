@@ -108,9 +108,9 @@ function Info() {
   }, "& I am a"), __jsx(react_typed__WEBPACK_IMPORTED_MODULE_4___default.a, {
     loop: true,
     typeSpeed: 70,
-    backSpeed: 60,
-    strings: ["Software Engineer", "Computer Programmer", "JavaScript Developer", "MERN Stack Developer", "Team Player", "Problem Solver"],
-    backDelay: 650,
+    backSpeed: 70,
+    strings: ["Software Engineer", "JavaScript Developer", "MERN Stack Developer", "Problem Solver", "Quick Learner", "Team Player"],
+    backDelay: 750,
     className: "self-typed",
     __source: {
       fileName: _jsxFileName,
@@ -122,7 +122,7 @@ function Info() {
     alt: "Rijwan Hossain",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 29
     },
     __self: this
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Button"], {
@@ -132,7 +132,7 @@ function Info() {
     href: "/static/CV.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 30
     },
     __self: this
   }, "Download CV"));
