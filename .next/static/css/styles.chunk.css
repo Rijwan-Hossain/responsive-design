@@ -794,6 +794,123 @@ img {
   .skillContainer h1 {
     font-size: 25px; } }
 
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px; }
+
+.projectContainer {
+  background: white;
+  padding: 80px; }
+
+.projectContainer img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 0px;
+  top: 5px;
+  box-shadow: 0px 0px 0px 0px; }
+
+.projectContainer h1 {
+  position: relative;
+  left: 20px;
+  font-size: 50px;
+  color: #313131; }
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "pro1 pro2 pro3";
+  grid-column-gap: 30px;
+  grid-row-gap: 30px; }
+
+.projects .project1 {
+  grid-area: pro1;
+  box-shadow: 0px 0px 10px 5px #ebebeb;
+  border-radius: 2%; }
+  .projects .project1 .sc {
+    width: 92%;
+    margin: 10px; }
+  .projects .project1 .ld {
+    width: 92%;
+    margin: 0px 10px 10px; }
+
+.projects .project2 {
+  grid-area: pro2;
+  box-shadow: 0px 0px 10px 5px #ebebeb;
+  border-radius: 2%; }
+  .projects .project2 .sc {
+    width: 92%;
+    margin: 10px; }
+  .projects .project2 .ld {
+    width: 92%;
+    margin: 0px 10px 10px; }
+
+.projects .project3 {
+  grid-area: pro3;
+  box-shadow: 0px 0px 10px 5px #ebebeb;
+  border-radius: 2%; }
+  .projects .project3 .sc {
+    width: 92%;
+    margin: 10px; }
+  .projects .project3 .ld {
+    width: 92%;
+    margin: 0px 10px 10px; }
+
+@media screen and (max-width: 1000px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "pro1 pro2" "pro3 ."; }
+  .projects .project1 {
+    grid-area: pro1; }
+  .projects .project2 {
+    grid-area: pro2; }
+  .projects .project3 {
+    grid-area: pro3; } }
+
+@media screen and (max-width: 800px) {
+  .projectContainer {
+    background: white;
+    padding: 20px; }
+  .projectContainer h1 {
+    font-size: 35px; }
+  .projectContainer img {
+    height: 35px;
+    width: 35px; }
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "pro1" "pro2" "pro3"; }
+  .projects .project1 {
+    grid-area: pro1;
+    box-shadow: 0px 0px 10px 2px #ebebeb; }
+    .projects .project1 .sc {
+      width: 93%;
+      margin: 10px; }
+    .projects .project1 .ld {
+      width: 93%;
+      margin: 0px 10px 10px; }
+  .projects .project2 {
+    grid-area: pro2;
+    box-shadow: 0px 0px 10px 2px #ebebeb; }
+    .projects .project2 .sc {
+      width: 93%;
+      margin: 10px; }
+    .projects .project2 .ld {
+      width: 93%;
+      margin: 0px 10px 10px; }
+  .projects .project3 {
+    grid-area: pro3;
+    box-shadow: 0px 0px 10px 2px #ebebeb; }
+    .projects .project3 .sc {
+      width: 93%;
+      margin: 10px; }
+    .projects .project3 .ld {
+      width: 93%;
+      margin: 0px 10px 10px; } }
 
 
 
