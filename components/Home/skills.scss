@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+} 
+
+.skillContainer { 
+    background: rgb(255, 255, 255); 
+    padding: 80px; 
+} 
+
+.skillContainer h1 { 
+    font-size: 50px; 
+    color: rgb(49, 49, 49); 
+} 
+
+
+.skillContainer #skillul { 
+    display: grid; 
+    grid-template-columns: 180px 265px 190px 195px 50px;
+} 
+
+.skillContainer #skillul li { 
+    list-style: none; 
+    margin-right: 20px; 
+    overflow: hidden; 
+    padding: 20px 15px; 
+    // font-size: 20px; 
+} 
+
+.skillContainer #skillul li:hover { 
+    transition: all .5s; 
+    box-shadow: 0px 0px 20px 5px rgb(226, 226, 226); 
+    color: rgb(7, 119, 206); 
+} 
+
+
+
+
+// Profes...
+
+.skillContainer .pro { 
+    background: rgb(255, 255, 255); 
+    box-shadow: 0px 0px 20px 5px rgb(226, 226, 226); 
+    padding: 80px; 
+} 
+
+.skillContainer .pro h3 {
+    color: rgb(31, 192, 31);
+}
+.skillContainer .pro ul {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+} 
+
+.skillContainer .pro ul li { 
+    list-style: square; 
+    margin-right: 20px; 
+    overflow: hidden; 
+    padding: 20px 15px; 
+    font-size: 20px; 
+} 
+
+
+.skillContainer .pro ul li:nth-child(1) { 
+    color: rgb(25, 179, 158);
+} 
+.skillContainer .pro ul li:nth-child(2) { 
+    color: rgb(25, 179, 158);
+} 
+.skillContainer .pro ul li:nth-child(5) { 
+    color: rgb(25, 179, 158);
+} 
+.skillContainer .pro ul li:nth-child(6) { 
+    color: rgb(25, 179, 158);
+} 
+
+
+
+
+// Media query
+
+@media screen and (max-width: 1000px) { 
+    .skillContainer #skillul {  
+        display: grid; 
+        grid-template-columns: 180px 265px; 
+    } 
+
+    .skillContainer .pro ul {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 70px 70px 50px;
+    } 
+
+    .skillContainer .pro ul li { 
+        padding: 20px 15px; 
+        font-size: 18px; 
+    } 
+} 
+
+@media screen and (max-width: 780px) { 
+    .skillContainer .pro ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: 45px 45px 45px 45px 45px 45px 45px 45px;
+    } 
+
+    .skillContainer .pro ul li { 
+        padding: 20px 15px; 
+        font-size: 18px; 
+    } 
+
+    .skillContainer .pro { 
+        // background: rgb(255, 255, 255); 
+        // box-shadow: 0px 0px 20px 5px rgb(226, 226, 226); 
+        padding: 40px; 
+    } 
+
+    .skillContainer h1 { 
+        font-size: 40px; 
+    } 
+
+    .skillContainer .pro ul li:nth-child(1) { 
+        color: rgb(25, 179, 158);
+    } 
+    .skillContainer .pro ul li:nth-child(2) { 
+        color: black;
+    } 
+    .skillContainer .pro ul li:nth-child(3) { 
+        color: rgb(25, 179, 158);
+    } 
+    .skillContainer .pro ul li:nth-child(5) { 
+        color: rgb(25, 179, 158);
+    } 
+    .skillContainer .pro ul li:nth-child(6) { 
+        color: black;
+    } 
+    .skillContainer .pro ul li:nth-child(7) { 
+        color: rgb(25, 179, 158);
+    } 
+} 
+
+
+
+
+@media screen and (max-width: 535px) { 
+    .skillContainer #skillul { 
+        display: grid; 
+        grid-template-columns: 265px; 
+        grid-template-rows: 50px 50px 50px 50px 25px; 
+    } 
+
+
+    .skillContainer .pro ul li { 
+        font-size: 18px; 
+    } 
+    
+    .skillContainer .pro h3 { 
+        font-size: 22px; 
+    } 
+
+    .skillContainer { 
+        background: rgb(255, 255, 255); 
+        padding: 20px; 
+    } 
+} 
+
+
+@media screen and (max-width: 505px) { 
+    .skillContainer .pro ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: 45px 45px 45px 45px 45px 45px 45px 45px;
+    } 
+
+    .skillContainer .pro ul li { 
+        padding: 20px 15px; 
+        font-size: 17px; 
+    } 
+} 
+
+
+@media screen and (max-width: 440px) { 
+    .skillContainer .pro ul { 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    } 
+
+    .skillContainer .pro ul li { 
+        padding: 20px 15px; 
+        font-size: 15px; 
+    } 
+
+    .skillContainer .pro h3 { 
+        font-size: 22px; 
+    } 
+
+    .skillContainer .pro { 
+        // background: rgb(255, 255, 255); 
+        // box-shadow: 0px 0px 20px 5px rgb(226, 226, 226); 
+        padding: 10px; 
+    } 
+
+    .skillContainer h1 { 
+        font-size: 35px; 
+    } 
+} 
+
+@media screen and (max-width: 365px) { 
+    .skillContainer .pro ul { 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 38px 38px 38px 38px 38px 38px 38px 38px;
+    } 
+
+    .skillContainer .pro ul li { 
+        padding: 20px 15px; 
+        font-size: 15px; 
+    } 
+
+    .skillContainer .pro h3 { 
+        font-size: 18px; 
+    } 
+
+    .skillContainer .pro { 
+        padding: 10px; 
+    } 
+
+    .skillContainer h1 { 
+        font-size: 30px; 
+    } 
+} 
+
+@media screen and (max-width: 350px) { 
+    .skillContainer .pro ul { 
+        grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px;
+    } 
+
+    .skillContainer h1 { 
+        font-size: 25px; 
+    } 
+} 
+

@@ -129,13 +129,29 @@ const BaseLayout = props => {
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     },
     __self: undefined
-  }, "My Portfolio")), __jsx(_shared_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "My Portfolio"), __jsx("link", {
+    rel: "stylesheet",
+    href: "../../node_modules/css/font-awesome.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 11
+    },
+    __self: undefined
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "../../node_modules/bootstrap/dist/css/bootstrap.min.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  })), __jsx(_shared_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: undefined
   }), props.children);
@@ -168,7 +184,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function Header() {
   return __jsx("div", {
-    className: "jsx-815718767",
+    className: "jsx-2205979599" + " " + "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -182,7 +198,7 @@ function Header() {
     },
     __self: this
   }, __jsx("a", {
-    className: "jsx-815718767",
+    className: "jsx-2205979599",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -196,16 +212,16 @@ function Header() {
     },
     __self: this
   }, __jsx("a", {
-    className: "jsx-815718767",
+    className: "jsx-2205979599",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, "About")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "815718767",
+    id: "2205979599",
     __self: this
-  }, "a.jsx-815718767{margin:0px 10px 0px 0px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUmlqd2FuIEhvc3NhaW5cXERlc2t0b3BcXHJlc3BvbnNpdmUtZGVzaWduXFxjb21wb25lbnRzXFxzaGFyZWRcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFhaUIsQUFFK0Msd0JBQUMiLCJmaWxlIjoiQzpcXFVzZXJzXFxSaWp3YW4gSG9zc2FpblxcRGVza3RvcFxccmVzcG9uc2l2ZS1kZXNpZ25cXGNvbXBvbmVudHNcXHNoYXJlZFxcSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG5mdW5jdGlvbiBIZWFkZXIoKSB7IFxyXG4gICAgcmV0dXJuICggXHJcbiAgICAgICAgPGRpdj4gXHJcbiAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+IFxyXG4gICAgICAgICAgICAgICAgPGE+SG9tZTwvYT4gXHJcbiAgICAgICAgICAgIDwvTGluaz4gXHJcbiAgICAgICAgICAgIDxMaW5rIGhyZWY9XCJhYm91dFwiPiBcclxuICAgICAgICAgICAgICAgIDxhPkFib3V0PC9hPiBcclxuICAgICAgICAgICAgPC9MaW5rPiBcclxuICAgICAgICAgICAgPHN0eWxlIGpzeD4gXHJcbiAgICAgICAgICAgICAgICB7YCBcclxuICAgICAgICAgICAgICAgICAgICBhIHsgbWFyZ2luOiAwcHggMTBweCAwcHggMHB4fSBcclxuICAgICAgICAgICAgICAgIGB9IFxyXG4gICAgICAgICAgICA8L3N0eWxlPiBcclxuICAgICAgICA8L2Rpdj4gXHJcbiAgICApIFxyXG59IFxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyOyBcclxuIl19 */\n/*@ sourceURL=C:\\Users\\Rijwan Hossain\\Desktop\\responsive-design\\components\\shared\\Header.js */"));
+  }, "a.jsx-2205979599{margin:0px 30px 0px 0px;}div.jsx-2205979599{height:40px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUmlqd2FuIEhvc3NhaW5cXERlc2t0b3BcXHJlc3BvbnNpdmUtZGVzaWduXFxjb21wb25lbnRzXFxzaGFyZWRcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFhaUIsQUFFZ0QsQUFDVixZQUFDLFlBRFUiLCJmaWxlIjoiQzpcXFVzZXJzXFxSaWp3YW4gSG9zc2FpblxcRGVza3RvcFxccmVzcG9uc2l2ZS1kZXNpZ25cXGNvbXBvbmVudHNcXHNoYXJlZFxcSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG5mdW5jdGlvbiBIZWFkZXIoKSB7IFxyXG4gICAgcmV0dXJuICggXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj4gXHJcbiAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+IFxyXG4gICAgICAgICAgICAgICAgPGE+SG9tZTwvYT4gXHJcbiAgICAgICAgICAgIDwvTGluaz4gXHJcbiAgICAgICAgICAgIDxMaW5rIGhyZWY9XCJhYm91dFwiPiBcclxuICAgICAgICAgICAgICAgIDxhPkFib3V0PC9hPiBcclxuICAgICAgICAgICAgPC9MaW5rPiBcclxuICAgICAgICAgICAgPHN0eWxlIGpzeD4gXHJcbiAgICAgICAgICAgICAgICB7YCBcclxuICAgICAgICAgICAgICAgICAgICBhIHsgbWFyZ2luOiAwcHggMzBweCAwcHggMHB4IH0gXHJcbiAgICAgICAgICAgICAgICAgICAgZGl2IHsgaGVpZ2h0OiA0MHB4IH0gXHJcbiAgICAgICAgICAgICAgICBgfSBcclxuICAgICAgICAgICAgPC9zdHlsZT4gXHJcbiAgICAgICAgPC9kaXY+IFxyXG4gICAgKSBcclxufSBcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjsgXHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\Rijwan Hossain\\Desktop\\responsive-design\\components\\shared\\Header.js */"));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Header() { 
     return ( 
-        <div> 
+        <div className="container"> 
             <Link href="/"> 
                 <a>Home</a> 
             </Link> 
@@ -12,7 +12,8 @@ function Header() {
             </Link> 
             <style jsx> 
                 {` 
-                    a { margin: 0px 10px 0px 0px} 
+                    a { margin: 0px 30px 0px 0px } 
+                    div { height: 40px } 
                 `} 
             </style> 
         </div> 

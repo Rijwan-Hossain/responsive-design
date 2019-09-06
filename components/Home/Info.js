@@ -6,7 +6,7 @@ import Typed from 'react-typed';
 
 function Info() {
     return (
-        <div className="container"> 
+        <div className="container infoContainer"> 
             <h1 className="hello">Hello.</h1> 
             <p className="name">This is Md. Rijyan Hossain</p>
             <p className="typed">& I am a</p> 
