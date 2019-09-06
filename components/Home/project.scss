@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+ }
+ 
+
+.projectContainer { 
+    background: rgb(255, 255, 255); 
+    padding: 80px; 
+}  
+
+
+.projectContainer img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 0px; 
+    top: 5px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.projectContainer h1 { 
+    position: relative; 
+    left: 20px; 
+    font-size: 50px; 
+    color: rgb(49, 49, 49); 
+} 
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+       "pro1 pro2 pro3";
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.projects .project1 {
+    grid-area: pro1;
+    box-shadow: 0px 0px 10px 5px rgb(235, 235, 235);
+    border-radius: 2%; 
+    .sc { 
+        width: 92%; 
+        margin: 10px;
+    } 
+    .ld { 
+        width: 92%; 
+        margin: 0px 10px 10px;
+    } 
+} 
+
+
+
+.projects .project2 {
+    grid-area: pro2;
+    box-shadow: 0px 0px 10px 5px rgb(235, 235, 235);
+    border-radius: 2%;
+    .sc { 
+        width: 92%; 
+        margin: 10px;
+    } 
+    .ld { 
+        width: 92%; 
+        margin: 0px 10px 10px;
+    } 
+}
+
+
+
+.projects .project3 {
+    grid-area: pro3;
+    box-shadow: 0px 0px 10px 5px rgb(235, 235, 235);
+    border-radius: 2%; 
+    .sc { 
+        width: 92%; 
+        margin: 10px;
+    } 
+    .ld { 
+        width: 92%; 
+        margin: 0px 10px 10px;
+    }  
+} 
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+           "pro1 pro2"
+           "pro3 .";
+    } 
+    
+    .projects .project1 {
+        grid-area: pro1;
+    }
+    .projects .project2 {
+        grid-area: pro2;
+    }
+    .projects .project3 {
+        grid-area: pro3;
+    } 
+    
+}
+
+
+
+@media screen and (max-width: 800px) { 
+    .projectContainer { 
+        background: rgb(255, 255, 255); 
+        padding: 20px; 
+    }  
+    .projectContainer h1 { 
+        // left: 20px; 
+        font-size: 35px; 
+    } 
+    .projectContainer img {
+        height: 35px;
+        width: 35px;
+    }
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+           "pro1"
+           "pro2"
+           "pro3";
+    }
+    
+    .projects .project1 {
+        grid-area: pro1;
+        box-shadow: 0px 0px 10px 2px rgb(235, 235, 235);
+        .sc { 
+            width: 93%; 
+            margin: 10px;
+        } 
+        .ld { 
+            width: 93%; 
+            margin: 0px 10px 10px;
+        } 
+    }
+    .projects .project2 {
+        grid-area: pro2;
+        box-shadow: 0px 0px 10px 2px rgb(235, 235, 235);
+        .sc { 
+            width: 93%; 
+            margin: 10px;
+        } 
+        .ld { 
+            width: 93%; 
+            margin: 0px 10px 10px;
+        } 
+    }
+    .projects .project3 {
+        grid-area: pro3;
+        box-shadow: 0px 0px 10px 2px rgb(235, 235, 235);
+        .sc { 
+            width: 93%; 
+            margin: 10px;
+        } 
+        .ld { 
+            width: 93%; 
+            margin: 0px 10px 10px;
+        } 
+    }
+    
+}
+
+// @media screen and (max-width: 400px) {
+//     .projects .project3 h4 {
+//         height: 150px;
+//         line-height: 150px;
+//     }
+// }

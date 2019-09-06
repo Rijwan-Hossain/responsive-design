@@ -29,10 +29,10 @@
 } 
 
 .skillContainer #skillul li:hover { 
-    transition: all .5s; 
-    box-shadow: 0px 0px 20px 5px rgb(226, 226, 226); 
-    color: rgb(7, 119, 206); 
-    font-size: 17px;
+    transition: all .3s; 
+    box-shadow: 0px 0px 30px 3px rgb(230, 230, 230); 
+    color: rgb(11, 104, 175); 
+    // font-size: 17px;
 } 
 
 
@@ -42,7 +42,7 @@
 
 .skillContainer .pro { 
     background: rgb(255, 255, 255); 
-    box-shadow: 0px 0px 20px 5px rgb(226, 226, 226); 
+    box-shadow: 0px 0px 20px 3px rgb(226, 226, 226); 
     padding: 80px; 
 } 
 
@@ -63,19 +63,6 @@
     font-size: 20px; 
 } 
 
-
-// .skillContainer .pro ul li:nth-child(1) { 
-//     color: rgb(25, 179, 158);
-// } 
-// .skillContainer .pro ul li:nth-child(2) { 
-//     color: rgb(25, 179, 158);
-// } 
-// .skillContainer .pro ul li:nth-child(5) { 
-//     color: rgb(25, 179, 158);
-// } 
-// .skillContainer .pro ul li:nth-child(6) { 
-//     color: rgb(25, 179, 158);
-// } 
 
 
 
@@ -120,25 +107,6 @@
     .skillContainer h1 { 
         font-size: 40px; 
     } 
-
-    // .skillContainer .pro ul li:nth-child(1) { 
-    //     color: rgb(25, 179, 158);
-    // } 
-    // .skillContainer .pro ul li:nth-child(2) { 
-    //     color: black;
-    // } 
-    // .skillContainer .pro ul li:nth-child(3) { 
-    //     color: rgb(25, 179, 158);
-    // } 
-    // .skillContainer .pro ul li:nth-child(5) { 
-    //     color: rgb(25, 179, 158);
-    // } 
-    // .skillContainer .pro ul li:nth-child(6) { 
-    //     color: black;
-    // } 
-    // .skillContainer .pro ul li:nth-child(7) { 
-    //     color: rgb(25, 179, 158);
-    // } 
 } 
 
 
