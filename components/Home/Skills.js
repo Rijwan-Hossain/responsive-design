@@ -6,10 +6,10 @@ function Skills() {
         <div className="container skillContainer"> 
             <h1>My skills</h1>
             <ul id="skillul"> 
-                <li>#WebTechnology</li> 
-                <li>#CompetitiveProblemSolving</li> 
-                <li>#WebDevelopment</li> 
-                <li>#ResponsiveDesign</li> 
+                <li>Web Technology</li> 
+                <li>Competitive Problem Solving</li> 
+                <li>Web Development</li> 
+                <li>Responsive Design</li> 
             </ul> 
 
             <div className="pro"> 

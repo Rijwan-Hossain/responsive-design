@@ -682,18 +682,20 @@ img {
 
 .skillContainer #skillul {
   display: grid;
-  grid-template-columns: 180px 265px 190px 195px 50px; }
+  grid-template-columns: 168px 260px 185px 190px 50px; }
 
 .skillContainer #skillul li {
   list-style: none;
   margin-right: 20px;
   overflow: hidden;
-  padding: 20px 15px; }
+  padding: 20px 15px;
+  color: black;
+  opacity: 0.6; }
 
 .skillContainer #skillul li:hover {
-  transition: all .3s;
+  transition: all .4s;
   box-shadow: 0px 0px 30px 3px #e6e6e6;
-  color: #0b68af; }
+  opacity: 1; }
 
 .skillContainer .pro {
   background: white;
@@ -743,7 +745,7 @@ img {
   .skillContainer #skillul {
     display: grid;
     grid-template-columns: 265px;
-    grid-template-rows: 50px 50px 50px 50px 25px; }
+    grid-template-rows: 65px 65px 65px 65px 25px; }
   .skillContainer .pro ul li {
     font-size: 18px; }
   .skillContainer .pro h3 {
@@ -755,7 +757,7 @@ img {
 @media screen and (max-width: 505px) {
   .skillContainer .pro ul {
     grid-template-columns: 1fr;
-    grid-template-rows: 45px 45px 45px 45px 45px 45px 45px 45px; }
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px; }
   .skillContainer .pro ul li {
     padding: 20px 15px;
     font-size: 17px; } }
@@ -912,6 +914,22 @@ img {
       width: 93%;
       margin: 0px 10px 10px; } }
 
+
+.about {
+  margin: 0px;
+  padding: 0px;
+  background: #e6e6e6;
+  min-height: 100vh;
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+.myInfo .info {
+  background: white;
+  padding: 60px; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -460,7 +460,7 @@ function Projects() {
       lineNumber: 84
     },
     __self: this
-  }, "Public API"), __jsx("h4", {
+  }, "React App (Github API)"), __jsx("h4", {
     style: {
       minHeight: '100px',
       lineHeight: '100px',
@@ -541,25 +541,25 @@ function Skills() {
       lineNumber: 9
     },
     __self: this
-  }, "#WebTechnology"), __jsx("li", {
+  }, "Web Technology"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "#CompetitiveProblemSolving"), __jsx("li", {
+  }, "Competitive Problem Solving"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "#WebDevelopment"), __jsx("li", {
+  }, "Web Development"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "#ResponsiveDesign")), __jsx("div", {
+  }, "Responsive Design")), __jsx("div", {
     className: "pro",
     __source: {
       fileName: _jsxFileName,
@@ -1587,7 +1587,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

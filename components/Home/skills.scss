@@ -17,7 +17,7 @@
 
 .skillContainer #skillul { 
     display: grid; 
-    grid-template-columns: 180px 265px 190px 195px 50px;
+    grid-template-columns: 168px 260px 185px 190px 50px;
 } 
 
 .skillContainer #skillul li { 
@@ -25,14 +25,15 @@
     margin-right: 20px; 
     overflow: hidden; 
     padding: 20px 15px; 
+    color: black;
+    opacity: 0.6;
     // font-size: 20px; 
 } 
 
 .skillContainer #skillul li:hover { 
-    transition: all .3s; 
+    transition: all .4s; 
     box-shadow: 0px 0px 30px 3px rgb(230, 230, 230); 
-    color: rgb(11, 104, 175); 
-    // font-size: 17px;
+    opacity: 1;
 } 
 
 
@@ -116,7 +117,7 @@
     .skillContainer #skillul { 
         display: grid; 
         grid-template-columns: 265px; 
-        grid-template-rows: 50px 50px 50px 50px 25px; 
+        grid-template-rows: 65px 65px 65px 65px 25px; 
     } 
 
 
@@ -138,7 +139,7 @@
 @media screen and (max-width: 505px) { 
     .skillContainer .pro ul {
         grid-template-columns: 1fr;
-        grid-template-rows: 45px 45px 45px 45px 45px 45px 45px 45px;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
     } 
 
     .skillContainer .pro ul li { 

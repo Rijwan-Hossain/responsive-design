@@ -89,7 +89,7 @@ function Projects() {
                         color: 'rgb(80 80 80)', 
                         borderBottom: '1px solid rgb(210 210 210)'
                     }}> 
-                        Public API 
+                        React App (Github API) 
                     </p> 
                     <h4 style={{
                         minHeight: '100px', 

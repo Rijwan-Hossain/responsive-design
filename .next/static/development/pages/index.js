@@ -366,7 +366,7 @@ function Projects() {
       lineNumber: 84
     },
     __self: this
-  }, "Public API"), __jsx("h4", {
+  }, "React App (Github API)"), __jsx("h4", {
     style: {
       minHeight: '100px',
       lineHeight: '100px',
@@ -447,25 +447,25 @@ function Skills() {
       lineNumber: 9
     },
     __self: this
-  }, "#WebTechnology"), __jsx("li", {
+  }, "Web Technology"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "#CompetitiveProblemSolving"), __jsx("li", {
+  }, "Competitive Problem Solving"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "#WebDevelopment"), __jsx("li", {
+  }, "Web Development"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "#ResponsiveDesign")), __jsx("div", {
+  }, "Responsive Design")), __jsx("div", {
     className: "pro",
     __source: {
       fileName: _jsxFileName,
@@ -26789,7 +26789,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 4:
 /*!*************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CRijwan%20Hossain%5CDesktop%5Cresponsive-design%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************************/
@@ -26812,5 +26812,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
