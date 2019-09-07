@@ -329,21 +329,27 @@ function Projects() {
       lineNumber: 10
     },
     __self: this
-  }, "Projects")), __jsx("div", {
+  }, "Projects")), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "I am a javascript full stack developer, build feasible web solution. I prefere to use React-Redux & NodeJS. I build RESTful services with the help of ExpressJS."), __jsx("div", {
     className: "projects",
     style: {
       marginBottom: '30px'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
   }, __jsx("div", {
     className: "project1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }, __jsx("p", {
@@ -357,7 +363,7 @@ function Projects() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 19
     },
     __self: this
   }, "MERN Stack App"), __jsx("h4", {
@@ -368,7 +374,7 @@ function Projects() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 29
     },
     __self: this
   }, "Diet Planner"), __jsx("a", {
@@ -377,7 +383,7 @@ function Projects() {
     href: "https://github.com/Rijwan-Hossain/Diet-Planner",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 36
     },
     __self: this
   }, "Source Code"), __jsx("a", {
@@ -386,14 +392,14 @@ function Projects() {
     href: "https://my-diet-planner.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 42
     },
     __self: this
   }, "Live Demo")), __jsx("div", {
     className: "project2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 53
     },
     __self: this
   }, __jsx("p", {
@@ -407,7 +413,7 @@ function Projects() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 54
     },
     __self: this
   }, "React-Redux App"), __jsx("h4", {
@@ -418,7 +424,7 @@ function Projects() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 64
     },
     __self: this
   }, "Tree Center"), __jsx("a", {
@@ -427,7 +433,7 @@ function Projects() {
     href: "https://github.com/Rijwan-Hossain/Tree-Center/tree/master/tree",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 71
     },
     __self: this
   }, "Source Code"), __jsx("a", {
@@ -436,14 +442,14 @@ function Projects() {
     href: "https://eloquent-mirzakhani-5f5c99.netlify.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 77
     },
     __self: this
   }, "Live Demo")), __jsx("div", {
     className: "project3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 87
     },
     __self: this
   }, __jsx("p", {
@@ -457,7 +463,7 @@ function Projects() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 88
     },
     __self: this
   }, "React App (Github API)"), __jsx("h4", {
@@ -468,7 +474,7 @@ function Projects() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 98
     },
     __self: this
   }, "Github Profile Finder"), __jsx("a", {
@@ -477,7 +483,7 @@ function Projects() {
     href: "https://github.com/Rijwan-Hossain/Github-Profile-Finder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 105
     },
     __self: this
   }, "Source Code"), __jsx("a", {
@@ -486,7 +492,7 @@ function Projects() {
     href: "https://cocky-dubinsky-b41c1f.netlify.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 111
     },
     __self: this
   }, "Live Demo"))));

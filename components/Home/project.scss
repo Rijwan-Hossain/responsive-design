@@ -36,6 +36,12 @@
     grid-row-gap: 30px;
 }
 
+.projectContainer p {
+    font-size: 20px; 
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
 .projects .project1 {
     grid-area: pro1;
     box-shadow: 0px 0px 10px 5px rgb(235, 235, 235);

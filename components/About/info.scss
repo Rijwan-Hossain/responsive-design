@@ -4,9 +4,71 @@
     outline: 0; 
 } 
 
-.myInfo .info {
-    background: white;
-    padding: 60px;
+.myInfo .info { 
+    background: white; 
+    padding: 80px; 
+} 
+
+.myInfo .info img {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 0px; 
+    box-shadow: 0px 0px 0px 0px;
 }
 
+.myInfo .info h1 { 
+    position: relative; 
+    left: 20px; 
+    font-size: 50px; 
+    color: rgb(49, 49, 49); 
+} 
+
+
+.myInfo .info p {
+    font-size: 20px; 
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+    .myInfo .info { 
+        padding: 40px; 
+    } 
+    
+    .myInfo .info img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .myInfo .info h1 { 
+        font-size: 35px; 
+    } 
+    
+    
+    .myInfo .info p {
+        font-size: 17px; 
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .myInfo .info { 
+        padding: 20px; 
+    } 
+    
+    .myInfo .info img {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .myInfo .info h1 { 
+        font-size: 30px; 
+    } 
+    
+    
+    .myInfo .info p {
+        font-size: 16px; 
+    }
+}
 

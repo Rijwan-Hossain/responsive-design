@@ -9,6 +9,10 @@ function Projects() {
                 <img src="/static/images/projects.png" alt="logo"/>
                 <h1>Projects</h1> 
             </div> 
+            
+            <p> 
+                I am a javascript full stack developer, build feasible web solution. I prefere to use React-Redux & NodeJS. I build RESTful services with the help of ExpressJS. 
+            </p> 
 
             <div className="projects" style={{marginBottom: '30px'}}>  
                 <div className="project1">  

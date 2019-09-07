@@ -7,6 +7,7 @@ function AboutMe() {
         <div className="about"> 
             <div style={{height: '30px'}}></div>
             <Info /> 
+            <div style={{height: '30px'}}></div>
         </div> 
     ) 
 } 

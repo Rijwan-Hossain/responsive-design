@@ -136,6 +136,15 @@ function AboutMe() {
       lineNumber: 9
     },
     __self: this
+  }), __jsx("div", {
+    style: {
+      height: '30px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }));
 }
 
@@ -176,13 +185,80 @@ function Info() {
       lineNumber: 7
     },
     __self: this
-  }, __jsx("p", {
+  }, __jsx("div", {
+    className: "d-flex mb-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, "Hello,I\u2019m Akshay Handge Creative Graphic Designer & User Experience Desiger based in Website, I create digital Products a more Beautiful and usable place.")));
+  }, __jsx("img", {
+    src: "/static/images/human.jpg",
+    alt: "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "About Me")), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "I\u2019m Md. Rijyan Hossain, completed under graduation with a bachelor\u2019s degree in Computer Science & Engineering (CSE) from ", ` `, __jsx("a", {
+    href: "https://green.edu.bd",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Green University."), ` `, " During my four years of graduation, I have learnt computer programming with various of languages such as Assembly, C, Java, JavaScript, Ruby."), __jsx("div", {
+    style: {
+      height: '10px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "I have solved over 400 hundred problems in online judges such as ", ` `, __jsx("a", {
+    href: "https://www.urionlinejudge.com.br/judge/en/users/statistics/107459",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "URI"), ", UVA, Light OJ, Hacker Rank. I had also participated in many programming contest and came up with a respective position except 4 or 5."), __jsx("div", {
+    style: {
+      height: '10px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Now I am a javascript full stack developer, build feasible web solution. I prefere to use React + Redux + NextJS as front-end technology. And NodeJS + Express as back-end technology. I build RESTful services with the help of express.")));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Info);
