@@ -9,12 +9,12 @@ function Achievement() {
                     <img src="/static/images/award.png" alt="logo"/>  
                     <h1>Achievements</h1> 
                 </div> 
-                <h4 className="mb-3">Academic</h4> 
+                <h4 className="title mb-3">Academic</h4> 
                 <p className="dean"> 
                     <strong>DEAN CERTIFICATE </strong> - Based on academic performance - Spring Semester 2016 - Green University 
                 </p> 
-
-                <h4 className="mt-4 mb-3">Programming Contest</h4> 
+                
+                <h4 className="title mt-4 mb-3">Programming Contest</h4> 
                 <p className="programming">
                     <strong>
                     RANKED 1ST</strong> - GUB IPC-1 & IPC-2</p> 

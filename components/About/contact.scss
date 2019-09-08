@@ -1,0 +1,312 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    outline: 0; 
+} 
+
+.contact { 
+    background: white; 
+    padding: 80px; 
+} 
+
+.contact img { 
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 0px; 
+    box-shadow: 0px 0px 0px 0px;
+} 
+
+.contact h1 { 
+    position: relative; 
+    left: 20px; 
+    font-size: 50px; 
+    color: rgb(49, 49, 49); 
+} 
+
+
+.contacts { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-areas: 
+       "one two"
+       "three four"; 
+    grid-column-gap: 50px; 
+    grid-row-gap: 50px; 
+} 
+
+
+.contacts .one {
+    grid-area: one; 
+    box-shadow: 0px 0px 5px 0.8px rgb(230, 230, 230);
+    padding: 50px;
+    div img {
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: -5px;
+        margin-right: 10px;
+    }
+}
+
+.contacts .two {
+    grid-area: two; 
+    box-shadow: 0px 0px 5px 0.8px rgb(230, 230, 230);
+    padding: 50px;
+    div img {
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: -5px;
+        margin-right: 10px;
+    }
+
+    a img {
+        position: relative; 
+        left: 50%;
+        transform: translateX(-80%); 
+        margin-right: 20px;
+    }
+}
+
+.contacts .three {
+    grid-area: three; 
+    box-shadow: 0px 0px 5px 0.8px rgb(230, 230, 230);
+    padding: 50px;
+    div img {
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: -5px;
+        margin-right: 10px;
+    }
+}
+
+.contacts .four {
+    grid-area: four; 
+    box-shadow: 0px 0px 5px 0.8px rgb(230, 230, 230);
+    padding: 50px;
+    div img {
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: -5px;
+        margin-right: 10px;
+    }
+}
+
+
+.olimg {
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+// Media Query
+@media screen and (max-width: 970px) {
+    .contacts { 
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-areas: 
+           "one two"
+           "three four"; 
+        grid-column-gap: 30px; 
+        grid-row-gap: 30px; 
+    } 
+    
+    
+    .contacts .one {
+        padding: 20px;
+    }
+    
+    .contacts .two {
+        padding: 20px;
+    }
+    
+    .contacts .three { 
+        padding: 20px;
+    } 
+    
+    .contacts .four { 
+        padding: 20px;
+    } 
+} 
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .contact { 
+        padding: 40px; 
+    } 
+    
+    .contact img { 
+        height: 40px;
+        width: 40px;
+    } 
+    
+    .contact h1 { 
+        font-size: 30px; 
+    } 
+    
+    
+    .contacts { 
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-areas: 
+           "one two"
+           "three four"; 
+        grid-column-gap: 30px; 
+        grid-row-gap: 30px; 
+    } 
+    
+    
+    .contacts .one {
+        padding: 20px;
+    }
+    
+    .contacts .two {
+        padding: 20px;
+    }
+    
+    .contacts .three { 
+        padding: 20px;
+    } 
+    
+    .contacts .four { 
+        padding: 20px;
+    } 
+} 
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .contact { 
+        padding: 20px; 
+    } 
+    
+    .contact img { 
+        height: 30px;
+        width: 30px;
+    } 
+    
+    .contact h1 { 
+        font-size: 25px; 
+    } 
+    
+    
+    .contacts { 
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        grid-template-areas: 
+           "one"
+           "two"
+           "three" 
+           "four"; 
+        grid-column-gap: 30px; 
+        grid-row-gap: 30px; 
+    } 
+    
+    
+    .contacts .one {
+        padding: 20px;
+        .media {
+            font-size: 20px;
+        }
+    }
+    
+    .contacts .two {
+        padding: 20px;
+        .media {
+            font-size: 20px;
+        }
+    }
+    
+    .contacts .three { 
+        padding: 20px;
+        .media {
+            font-size: 20px;
+        }
+    } 
+    
+    .contacts .four { 
+        padding: 20px;
+        .media {
+            font-size: 20px;
+        }
+    } 
+} 
+
+
+
+
+@media screen and (max-width: 400px) {
+    
+    .contacts { 
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        grid-template-areas: 
+           "one"
+           "two"
+           "three" 
+           "four"; 
+        grid-column-gap: 20px; 
+        grid-row-gap: 20px; 
+    } 
+    
+    
+    .contacts .one {
+        padding: 20px;
+    }
+    
+    .contacts .two {
+        padding: 20px;
+    }
+    
+    .contacts .three { 
+        padding: 20px;
+    } 
+    
+    .contacts .four { 
+        padding: 20px;
+    } 
+} 
+
+
+@media screen and (max-width: 330px) {
+    
+    .contacts { 
+        grid-row-gap: 10px; 
+    } 
+    
+    
+    .contacts .one {
+        padding: 10px;
+    }
+    
+    .contacts .two {
+        padding: 10px;
+    }
+    
+    .contacts .three { 
+        padding: 10px;
+    } 
+    
+    .contacts .four { 
+        padding: 10px;
+    } 
+} 
+
+
+
+

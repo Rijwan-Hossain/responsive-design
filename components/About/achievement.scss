@@ -25,14 +25,61 @@
     color: rgb(49, 49, 49); 
 } 
 
-.award p {
+.award p { 
     font-size: 18px;
     box-shadow: 0px 0px .5px .5px rgb(190, 190, 190);
     padding: 22px;
     margin-bottom: 0px;
-    // color: rgb(30, 228, 30);
-}
+} 
 
 
+@media screen and (max-width: 800px) {
+    .award { 
+        padding: 40px; 
+    } 
+    
+    .award img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .award h1 { 
+        font-size: 30px; 
+    } 
+    
+    .award p { 
+        font-size: 16px;
+        box-shadow: 0px 0px .5px .5px rgb(190, 190, 190);
+        padding: 22px;
+        margin-bottom: 0px;
+    } 
+    
+    .award .title { 
+        font-size: 20px;
+    } 
+} 
 
+@media screen and (max-width: 450px) {
+    .award { 
+        padding: 20px; 
+    } 
+    
+    .award img {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .award h1 { 
+        font-size: 25px; 
+    } 
+    
+    .award p { 
+        font-size: 15px;
+        padding: 10px;
+    } 
+    
+    .award .title { 
+        font-size: 20px;
+    } 
+} 
 

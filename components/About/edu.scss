@@ -1,0 +1,73 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    outline: 0; 
+} 
+
+.edu { 
+    background: white; 
+    padding: 80px; 
+} 
+
+.edu img { 
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 0px; 
+    box-shadow: 0px 0px 0px 0px;
+} 
+
+.edu h1 { 
+    position: relative; 
+    left: 20px; 
+    font-size: 50px; 
+    color: rgb(49, 49, 49); 
+} 
+
+.edu p { 
+    font-size: 18px;
+    box-shadow: 0px 0px .5px .5px rgb(190, 190, 190);
+    padding: 22px;
+    margin-bottom: 0px;
+} 
+
+@media screen and (max-width: 800px) { 
+    .edu {  
+        padding: 40px; 
+    }  
+    
+    .edu img { 
+        height: 40px;
+        width: 40px;
+    } 
+    
+    .edu h1 { 
+        font-size: 30px; 
+    } 
+    
+    .edu p { 
+        font-size: 16px;
+    }     
+} 
+
+
+@media screen and (max-width: 450px) { 
+    .edu {  
+        padding: 20px; 
+    }  
+    
+    .edu img { 
+        height: 30px;
+        width: 30px;
+    } 
+    
+    .edu h1 { 
+        font-size: 25px; 
+    } 
+    
+    .edu p { 
+        font-size: 15px;
+    } 
+} 
+
+
