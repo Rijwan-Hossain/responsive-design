@@ -24,7 +24,7 @@ function Info() {
                     <a href="https://www.urionlinejudge.com.br/judge/en/users/statistics/107459" target="_blank">
                         URI
                     </a>, 
-                    UVA, Light OJ, Hacker Rank. I had also participated in many programming contest and came up with a respective position except 4 or 5. 
+                    UVA, Light OJ, Hacker Rank. I had also participated in many programming contest and came up with a respective position except 2 or 3. 
                 </p> 
 
                 <div style={{height: '10px'}}></div> 

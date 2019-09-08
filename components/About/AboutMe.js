@@ -1,13 +1,16 @@
 import React from 'react' 
 import './about.scss' 
 import Info from './Info'
+import Achievement from './Achievement'
 
 function AboutMe() { 
     return ( 
         <div className="about"> 
-            <div style={{height: '30px'}}></div>
+            <div style={{height: '30px'}}></div> 
             <Info /> 
-            <div style={{height: '30px'}}></div>
+            <div style={{height: '30px'}}></div> 
+            <Achievement /> 
+            <div style={{height: '30px'}}></div> 
         </div> 
     ) 
 } 

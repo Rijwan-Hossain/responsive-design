@@ -1,0 +1,38 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    outline: 0; 
+} 
+
+.award { 
+    background: white; 
+    padding: 80px; 
+} 
+
+.award img {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 0px; 
+    box-shadow: 0px 0px 0px 0px;
+    background: rgb(241, 238, 27);
+}
+
+.award h1 { 
+    position: relative; 
+    left: 20px; 
+    font-size: 50px; 
+    color: rgb(49, 49, 49); 
+} 
+
+.award p {
+    font-size: 18px;
+    box-shadow: 0px 0px .5px .5px rgb(190, 190, 190);
+    padding: 22px;
+    margin-bottom: 0px;
+    // color: rgb(30, 228, 30);
+}
+
+
+
+

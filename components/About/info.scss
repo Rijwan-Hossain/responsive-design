@@ -30,25 +30,24 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) { 
     .myInfo .info { 
         padding: 40px; 
     } 
     
-    .myInfo .info img {
+    .myInfo .info img { 
         height: 40px;
         width: 40px;
-    }
+    } 
     
     .myInfo .info h1 { 
         font-size: 35px; 
     } 
     
-    
-    .myInfo .info p {
-        font-size: 17px; 
-    }
-}
+    .myInfo .info p { 
+        font-size: 17px;  
+    } 
+} 
 
 
 
@@ -63,7 +62,7 @@
     }
     
     .myInfo .info h1 { 
-        font-size: 30px; 
+        font-size: 25px; 
     } 
     
     
