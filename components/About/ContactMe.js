@@ -42,7 +42,9 @@ function ContactMe() {
                             <img className="olimg" src="/static/links/home.png" alt="asdf" /> 
                             <h4 className="media mb-3">Address</h4> 
                         </div> 
-                        <p>Mirpur-2, H-Block, Road-10, House-2, Dhaka-1216, Bangladesh</p>
+                        <address>
+                            Mirpur-2, H-Block, Road-10, House-2, Dhaka-1216, Bangladesh
+                        </address>
                     </div> 
                 </div> 
             </div> 
