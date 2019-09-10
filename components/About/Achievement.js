@@ -10,20 +10,23 @@ function Achievement() {
                     <h1>Achievements</h1> 
                 </div> 
                 <h4 className="title mb-3">Academic</h4> 
-                <p className="dean"> 
+                <p style={{overflow: 'hidden'}} className="dean"> 
                     <strong>DEAN CERTIFICATE </strong> - Based on academic performance - Spring Semester 2016 - Green University 
                 </p> 
                 
                 <h4 className="title mt-4 mb-3">Programming Contest</h4> 
-                <p className="programming">
+                <p style={{overflow: 'hidden'}} className="programming">
                     <strong>
-                    RANKED 1ST</strong> - GUB IPC-1 & IPC-2</p> 
-                <p className="programming">
+                    RANKED 1ST</strong> - GUB IPC-1 & IPC-2
+                </p> 
+                <p style={{overflow: 'hidden'}} className="programming">
                     <strong>
-                    RANKED 2ND</strong> - GUB IPC-3, IPC-6 & CSE Carnival-2016</p> 
-                <p className="programming">
+                    RANKED 2ND</strong> - GUB IPC-3, IPC-6 & CSE Carnival-2016
+                </p> 
+                <p style={{overflow: 'hidden'}} className="programming">
                     <strong>
-                    RANKED 3RD</strong> - GUB CSE Carnival-2017, 2018 & 2019</p> 
+                    RANKED 3RD</strong> - GUB CSE Carnival-2017, 2018 & 2019
+                </p> 
             </div> 
         </div> 
     ) 
