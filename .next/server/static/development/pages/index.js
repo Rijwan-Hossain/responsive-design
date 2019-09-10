@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -766,7 +766,7 @@ const BaseLayout = props => {
     __self: undefined
   }), __jsx("meta", {
     property: "og:url",
-    content: "http://localhost:3000/",
+    content: "https://rijyan.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -853,27 +853,37 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 function DialogBox() {
   return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["UncontrolledAlert"], {
     color: "info",
-    className: "px-5 pb-0 mb-0",
+    className: "pb-0 mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, __jsx("p", {
-    className: "px-5",
+    style: {
+      fontSize: '13px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, "This static project is made by ReactJS & NextJS for SSR."), __jsx("p", {
-    className: "px-5",
+  }, "This static project is made by", __jsx("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "For better view, please use Google Chrome or Brave browser."));
+  }, " ReactJS & NextJS"), " for SSR. For better view, please use Google Chrome or Brave browser."), __jsx("p", {
+    style: {
+      fontSize: '13px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Source Code: https://github.com/Rijwan-Hossain/responsive-design"));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (DialogBox);
@@ -1801,7 +1811,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

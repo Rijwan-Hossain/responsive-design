@@ -777,7 +777,7 @@ var BaseLayout = function BaseLayout(props) {
     __self: this
   }), __jsx("meta", {
     property: "og:url",
-    content: "http://localhost:3000/",
+    content: "https://rijyan.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -863,27 +863,37 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 function DialogBox() {
   return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["UncontrolledAlert"], {
     color: "info",
-    className: "px-5 pb-0 mb-0",
+    className: "pb-0 mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, __jsx("p", {
-    className: "px-5",
+    style: {
+      fontSize: '13px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, "This static project is made by ReactJS & NextJS for SSR."), __jsx("p", {
-    className: "px-5",
+  }, "This static project is made by", __jsx("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "For better view, please use Google Chrome or Brave browser."));
+  }, " ReactJS & NextJS"), " for SSR. For better view, please use Google Chrome or Brave browser."), __jsx("p", {
+    style: {
+      fontSize: '13px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Source Code: https://github.com/Rijwan-Hossain/responsive-design"));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (DialogBox);
@@ -26388,7 +26398,7 @@ function About() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 0:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5CRijwan%20Hossain%5CDesktop%5Cresponsive-design%5Cpages%5Cabout.js ***!
   \******************************************************************************************************************************************************/
@@ -26411,5 +26421,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map

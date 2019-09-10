@@ -7,7 +7,7 @@ function DialogBox() {
         <p style={{
           fontSize: '13px'
         }}> 
-          This static project is made by ReactJS & NextJS for SSR. For better view, please use Google Chrome or Brave browser.
+          This static project is made by<b> ReactJS & NextJS</b> for SSR. For better view, please use Google Chrome or Brave browser.
         </p> 
         <p style={{ 
           fontSize: '13px' 

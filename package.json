@@ -10,12 +10,12 @@
     "heroku-postbuild": "npm run build"
   }, 
   "repository": { 
-    "type": "git",
+    "type": "git", 
     "url": "git+https://github.com/Rijwan-Hossain/responsive-design.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
+  }, 
+  "author": "", 
+  "license": "ISC", 
+  "bugs": { 
     "url": "https://github.com/Rijwan-Hossain/responsive-design/issues"
   },
   "homepage": "https://github.com/Rijwan-Hossain/responsive-design#readme",
