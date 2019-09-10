@@ -127,7 +127,10 @@
     .projectContainer img {
         height: 35px;
         width: 35px;
-    }
+    } 
+    .projectContainer p {
+        font-size: 18px; 
+    } 
     .projects {
         display: grid;
         grid-template-columns: 1fr;
@@ -177,11 +180,7 @@
     
 }
 
-@media screen and (max-width: 800px) {
-    .projectContainer p {
-        font-size: 18px; 
-    } 
-} 
+
 
 @media screen and (max-width: 500px) {
     .projectContainer p {
