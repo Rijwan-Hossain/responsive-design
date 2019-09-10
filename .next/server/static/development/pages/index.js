@@ -853,7 +853,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 function DialogBox() {
   return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["UncontrolledAlert"], {
     color: "info",
-    className: "px-5 pb-0",
+    className: "px-5 pb-0 mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
