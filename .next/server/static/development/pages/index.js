@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -346,6 +346,9 @@ function Projects() {
     },
     __self: this
   }, __jsx("div", {
+    style: {
+      overflow: 'hidden'
+    },
     className: "project1",
     __source: {
       fileName: _jsxFileName,
@@ -396,6 +399,9 @@ function Projects() {
     },
     __self: this
   }, "Live Demo")), __jsx("div", {
+    style: {
+      overflow: 'hidden'
+    },
     className: "project2",
     __source: {
       fileName: _jsxFileName,
@@ -446,6 +452,9 @@ function Projects() {
     },
     __self: this
   }, "Live Demo")), __jsx("div", {
+    style: {
+      overflow: 'hidden'
+    },
     className: "project3",
     __source: {
       fileName: _jsxFileName,
@@ -1811,7 +1820,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

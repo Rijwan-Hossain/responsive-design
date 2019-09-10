@@ -252,6 +252,9 @@ function Projects() {
     },
     __self: this
   }, __jsx("div", {
+    style: {
+      overflow: 'hidden'
+    },
     className: "project1",
     __source: {
       fileName: _jsxFileName,
@@ -302,6 +305,9 @@ function Projects() {
     },
     __self: this
   }, "Live Demo")), __jsx("div", {
+    style: {
+      overflow: 'hidden'
+    },
     className: "project2",
     __source: {
       fileName: _jsxFileName,
@@ -352,6 +358,9 @@ function Projects() {
     },
     __self: this
   }, "Live Demo")), __jsx("div", {
+    style: {
+      overflow: 'hidden'
+    },
     className: "project3",
     __source: {
       fileName: _jsxFileName,
@@ -26294,7 +26303,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 0:
 /*!*************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CRijwan%20Hossain%5CDesktop%5Cresponsive-design%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************************/
@@ -26317,5 +26326,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

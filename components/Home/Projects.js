@@ -15,7 +15,7 @@ function Projects() {
             </p> 
 
             <div className="projects" style={{marginBottom: '30px'}}>  
-                <div className="project1">  
+                <div style={{overflow: 'hidden'}} className="project1">  
                     <p style={{
                         background: 'rgb(246 246 246)', 
                         height: '50px', 
@@ -50,7 +50,7 @@ function Projects() {
 
 
 
-                <div className="project2">
+                <div style={{overflow: 'hidden'}} className="project2">
                     <p style={{
                         background: 'rgb(246 246 246)', 
                         height: '50px', 
@@ -84,8 +84,8 @@ function Projects() {
 
 
 
-                <div className="project3">
-                <p style={{
+                <div style={{overflow: 'hidden'}} className="project3">
+                    <p style={{
                         background: 'rgb(246 246 246)', 
                         height: '50px', 
                         lineHeight: '50px', 
