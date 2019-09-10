@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
+    "start": "next start -p $PORT", 
+    "heroku-postbuild": "npm run build"
+  }, 
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/Rijwan-Hossain/responsive-design.git"
   },
