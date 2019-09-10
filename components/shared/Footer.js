@@ -7,7 +7,7 @@ function Footer() {
             <h6 style={{ 
                 textAlign: 'center' 
             }}> 
-                Portfolio of Md. Rijyan Hossain - 2K19 
+                Portfolio of Md. Rijyan Hossain - 2K19 ! 
             </h6> 
         </div> 
     ) 
