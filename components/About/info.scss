@@ -7,15 +7,16 @@
 .myInfo .info { 
     background: white; 
     padding: 80px; 
+    margin: 0px -15px; 
 } 
 
-.myInfo .info img {
-    height: 60px;
-    width: 60px;
-    position: relative;
-    left: 0px; 
-    box-shadow: 0px 0px 0px 0px;
-}
+.myInfo .info img { 
+    height: 60px; 
+    width: 60px; 
+    position: relative; 
+    left: 0px;  
+    box-shadow: 0px 0px 0px 0px; 
+} 
 
 .myInfo .info h1 { 
     position: relative; 
@@ -25,10 +26,10 @@
 } 
 
 
-.myInfo .info p {
+.myInfo .info p { 
     font-size: 20px; 
-    text-align: justify;
-}
+    text-align: justify; 
+} 
 
 @media screen and (max-width: 800px) { 
     .myInfo .info { 
