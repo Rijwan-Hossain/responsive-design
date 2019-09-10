@@ -14,11 +14,11 @@ function Info() {
                 loop 
                 typeSpeed={70} 
                 backSpeed={70} 
-                strings={[
+                strings={[ 
                     "Software Engineer",  
                     "JavaScript Developer", 
                     "MERN Stack Developer", 
-                    "Problem Solver",
+                    "Problem Solver", 
                     "Quick Learner", 
                     "Team Player" 
                 ]} 
