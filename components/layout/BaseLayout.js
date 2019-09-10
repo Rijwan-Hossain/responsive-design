@@ -16,7 +16,7 @@ const BaseLayout = (props) => {
 
             <meta property="og:title" content="Rijyan Hossain - programmer, developer, coder, problem solver" /> 
             <meta property="og:locale" content="bn_BD" /> 
-            <meta property="og:url" content="http://localhost:3000/" /> 
+            <meta property="og:url" content="https://rijyan.herokuapp.com/" /> 
             <meta property="og:type" content="website" /> 
             <meta property="og:description" content="I’m Md. Rijyan Hossain a Software Engineer, completed under graduation with a bachelor’s degree in Computer Science & Engineering (CSE) from Green University." /> 
 
