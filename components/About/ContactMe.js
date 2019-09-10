@@ -27,9 +27,9 @@ function ContactMe() {
                             <img src="/static/links/fb.png"  alt="facebook link"/> 
                         </a> 
                         <a href="https://www.linkedin.com/in/md-rijyan-hossain-42a9ab188/" target="_blank">
-                        <img src="/static/links/linkedin.png"  alt="linkedin link"/> 
-                        </a>
-                    </div>
+                            <img className="linkimg" src="/static/links/linkedin.png"  alt="linkedin link"/> 
+                        </a> 
+                    </div> 
                     <div className="three"> 
                         <div className="d-flex"> 
                             <img className="olimg" src="/static/links/call.png" alt="asdf" /> 

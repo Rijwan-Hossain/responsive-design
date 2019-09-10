@@ -23,7 +23,7 @@ function Achievement() {
                     RANKED 2ND</strong> - GUB IPC-3, IPC-6 & CSE Carnival-2016</p> 
                 <p className="programming">
                     <strong>
-                    RANKED 3RD</strong> - GUB CSE Carnival-2017, 2018 & 2018</p> 
+                    RANKED 3RD</strong> - GUB CSE Carnival-2017, 2018 & 2019</p> 
             </div> 
         </div> 
     ) 

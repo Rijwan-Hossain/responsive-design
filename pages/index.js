@@ -5,7 +5,7 @@ import '../styles/main.scss';
 
 function Index() { 
     return ( 
-        <BaseLayout> 
+        <BaseLayout title="Rijyan Hossain | Portfolio"> 
             <Home /> 
         </BaseLayout> 
     ) 

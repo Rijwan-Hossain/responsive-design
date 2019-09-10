@@ -5,7 +5,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 function Projects() { 
     return ( 
         <div className="container projectContainer"> 
-            <div className="d-flex mb-5"> 
+            <div className="d-flex mb-3"> 
                 <img src="/static/images/projects.png" alt="logo"/>
                 <h1>Projects</h1> 
             </div> 

@@ -10,7 +10,7 @@ function Info() {
                     <h1>About Me</h1> 
                 </div> 
                 <p> 
-                    I’m Md. Rijyan Hossain, completed under graduation with a bachelor’s degree in Computer Science & Engineering (CSE) from {` `}
+                    I’m Md. Rijyan Hossain a Software Engineer, completed under graduation with a bachelor’s degree in Computer Science & Engineering (CSE) from {` `}
                     <a href="https://green.edu.bd" target="_blank"> 
                         Green University. 
                     </a> 

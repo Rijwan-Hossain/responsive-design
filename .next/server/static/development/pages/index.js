@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -309,7 +309,7 @@ function Projects() {
     },
     __self: this
   }, __jsx("div", {
-    className: "d-flex mb-5",
+    className: "d-flex mb-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -696,14 +696,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _shared_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shared/Header */ "./components/shared/Header.js");
 /* harmony import */ var _shared_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/Footer */ "./components/shared/Footer.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _shared_DialogBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../shared/DialogBox */ "./components/shared/DialogBox.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\Rijwan Hossain\\Desktop\\responsive-design\\components\\layout\\BaseLayout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // import meta from 'next/meta'
+
+
 
 const BaseLayout = props => {
   return __jsx("div", {
@@ -712,24 +714,95 @@ const BaseLayout = props => {
       lineNumber: 9
     },
     __self: undefined
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, __jsx(_shared_DialogBox__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: undefined
-  }, __jsx("title", {
+  }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: undefined
-  }, "My Portfolio"), __jsx("link", {
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, props.title), __jsx("meta", {
+    name: "description",
+    content: "I\u2019m Md. Rijyan Hossain a Software Engineer, completed under graduation with a bachelor\u2019s degree in Computer Science & Engineering (CSE) from Green University. During my four years of graduation, I have learnt computer programming with various of languages such as Assembly, C, Java, JavaScript, Ruby.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }), __jsx("meta", {
+    name: "keywords",
+    content: "Rijyan Hossain Bangladesh, Rijwan Hossain Bangladesh, Rizwan Hossain Bangladesh, Rijyan Bangladesh, Rijwan Bangladesh, Rizwan Bangladesh, Rijyan, Rijwan, Rizwan, Rijyan Hossain, Rijwan Hossain, Rizwan Hossain, Md. Rijyan Hossain, Md. Rijwan Hossain, Md. Rizwan Hossain, Rijyan Portfolio, Rijwan Portfolio, Rizwan Portfolio, rijyan, rijwan, rizwan, rijyan hossain, rijwan hossain, rizwan hossain, Md. rijyan hossain, Md. rijwan hossain, Md. rizwan hossain, rijyan Portfolio, rijwan Portfolio, rizwan Portfolio, rijyan hossain Portfolio, rijwan hossain Portfolio, rizwan hossain Portfolio, Md. Rijyan Hossain Portfolio, Md. Rijwan Hossain Portfolio, Md. Rizwan Hossain Portfolio, Rijwan GUB, Rijyan GUB, Rijwan Green University, Rijyan Green University, Rizwan Green University, Rijyan Programmer, Rijwan Programmer, Rizwan Programmer, Rijyan Hossain Programmer, Rijwan Hossain Programmer, Rizwan Hossain Programmer, Rijyan Developer, Rijwan Developer, Rizwan Developer, Rijyan Hossain Developer, Rijwan Hossain Developer, Rizwan Hossain Developer, Rijyan Coder, Rijwan Coder, Rizwan Coder, Rijyan github, Rijwan github, Rizwan github, Rijyan site, Rijwan site, Rizwan site, Rijyan Hossain site, Rijwan Hossain site, Rizwan Hossain site, Md. Rijyan Hossain site, Md. Rijwan Hossain site, Md. Rizwan Hossain site, Rijyan Portfolio site, Rijwan Portfolio site, Rizwan Portfolio site, Rijyan Hossain Portfolio site, Rijwan Hossain Portfolio site, Rizwan Hossain Portfolio site, Md. Rijyan Hossain Portfolio site, Md. Rijwan Hossain Portfolio site, Md. Rizwan Hossain Portfolio site, Rijyan personal site, Rijwan personal site, Rizwan personal site, Rijyan Hossain personal site, Rijwan Hossain personal site, Rizwan Hossain personal site, Md. Rijyan Hossain personal site, Md. Rijwan Hossain personal site, Md. Rizwan Hossain personal site, Rijyan Portfolio personal site, Rijwan Portfolio personal site, Rizwan Portfolio  personalsite, Rijyan Hossain Portfolio personal site, Rijwan Hossain Portfolio personal site, Rizwan Hossain Portfolio personal site, Md. Rijyan Hossain Portfolio personal site, Md. Rijwan Hossain Portfolio personal site, Md. Rizwan Hossain Portfolio personal site, Rijyan personal website, Rijwan personal website, Rizwan personal website, Rijyan Hossain personal website, Rijwan Hossain personal website, Rizwan Hossain personal website, Md. Rijyan Hossain personal website, Md. Rijwan Hossain personal website, Md. Rizwan Hossain personal website, Rijyan Portfolio personal website, Rijwan Portfolio personal website, Rizwan Portfolio  personalsite, Rijyan Hossain Portfolio personal website, Rijwan Hossain Portfolio personal website, Rizwan Hossain Portfolio personal website, Md. Rijyan Hossain Portfolio personal website, Md. Rijwan Hossain Portfolio personal website, Md. Rizwan Hossain Portfolio personal website,",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }), __jsx("meta", {
+    property: "og:title",
+    content: "Rijyan Hossain - programmer, developer, coder, problem solver",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }), __jsx("meta", {
+    property: "og:locale",
+    content: "bn_BD",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }), __jsx("meta", {
+    property: "og:url",
+    content: "http://localhost:3000/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }), __jsx("meta", {
+    property: "og:type",
+    content: "website",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }), __jsx("meta", {
+    property: "og:description",
+    content: "I\u2019m Md. Rijyan Hossain a Software Engineer, completed under graduation with a bachelor\u2019s degree in Computer Science & Engineering (CSE) from Green University.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  }), __jsx("link", {
+    rel: "icon",
+    type: "image/ico",
+    href: "/static/favicon.ico",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }), __jsx("link", {
     rel: "stylesheet",
     href: "../../node_modules/css/font-awesome.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 24
     },
     __self: undefined
   }), __jsx("link", {
@@ -737,25 +810,73 @@ const BaseLayout = props => {
     href: "../../node_modules/bootstrap/dist/css/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 25
     },
     __self: undefined
   })), __jsx(_shared_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 27
     },
     __self: undefined
   }), props.children, __jsx(_shared_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 29
     },
     __self: undefined
   }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BaseLayout);
+
+/***/ }),
+
+/***/ "./components/shared/DialogBox.js":
+/*!****************************************!*\
+  !*** ./components/shared/DialogBox.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Rijwan Hossain\\Desktop\\responsive-design\\components\\shared\\DialogBox.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+function DialogBox() {
+  return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["UncontrolledAlert"], {
+    color: "info",
+    className: "px-5 pb-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "px-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "This static project is made by ReactJS & NextJS for SSR."), __jsx("p", {
+    className: "px-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "For better view, please use Google Chrome or Brave browser."));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (DialogBox);
 
 /***/ }),
 
@@ -770,15 +891,19 @@ const BaseLayout = props => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.scss */ "./components/shared/footer.scss");
+/* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_footer_scss__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\Rijwan Hossain\\Desktop\\responsive-design\\components\\shared\\Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
 function Footer() {
   return __jsx("div", {
+    className: "footer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, __jsx("h6", {
@@ -787,7 +912,7 @@ function Footer() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, "Portfolio of Md. Rijyan Hossain - 2K19"));
@@ -806,61 +931,143 @@ function Footer() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\Rijwan Hossain\\Desktop\\responsive-design\\components\\shared\\Header.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-function Header() {
-  return __jsx("div", {
-    className: "jsx-2205979599" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "jsx-2205979599",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "jsx-2205979599",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "About")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2205979599",
-    __self: this
-  }, "a.jsx-2205979599{margin:0px 30px 0px 0px;}div.jsx-2205979599{height:40px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUmlqd2FuIEhvc3NhaW5cXERlc2t0b3BcXHJlc3BvbnNpdmUtZGVzaWduXFxjb21wb25lbnRzXFxzaGFyZWRcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFhaUIsQUFFZ0QsQUFDVixZQUFDLFlBRFUiLCJmaWxlIjoiQzpcXFVzZXJzXFxSaWp3YW4gSG9zc2FpblxcRGVza3RvcFxccmVzcG9uc2l2ZS1kZXNpZ25cXGNvbXBvbmVudHNcXHNoYXJlZFxcSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG5mdW5jdGlvbiBIZWFkZXIoKSB7IFxyXG4gICAgcmV0dXJuICggXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj4gXHJcbiAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+IFxyXG4gICAgICAgICAgICAgICAgPGE+SG9tZTwvYT4gXHJcbiAgICAgICAgICAgIDwvTGluaz4gXHJcbiAgICAgICAgICAgIDxMaW5rIGhyZWY9XCJhYm91dFwiPiBcclxuICAgICAgICAgICAgICAgIDxhPkFib3V0PC9hPiBcclxuICAgICAgICAgICAgPC9MaW5rPiBcclxuICAgICAgICAgICAgPHN0eWxlIGpzeD4gXHJcbiAgICAgICAgICAgICAgICB7YCBcclxuICAgICAgICAgICAgICAgICAgICBhIHsgbWFyZ2luOiAwcHggMzBweCAwcHggMHB4IH0gXHJcbiAgICAgICAgICAgICAgICAgICAgZGl2IHsgaGVpZ2h0OiA0MHB4IH0gXHJcbiAgICAgICAgICAgICAgICBgfSBcclxuICAgICAgICAgICAgPC9zdHlsZT4gXHJcbiAgICAgICAgPC9kaXY+IFxyXG4gICAgKSBcclxufSBcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjsgXHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\Rijwan Hossain\\Desktop\\responsive-design\\components\\shared\\Header.js */"));
+
+
+class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
+  render() {
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
+      className: "container",
+      color: "white",
+      light: true,
+      expand: "md",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavbarBrand"], {
+      href: "/",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }, "My Porto"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavbarToggler"], {
+      onClick: this.toggle,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Collapse"], {
+      isOpen: this.state.isOpen,
+      navbar: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+      className: "ml-auto",
+      navbar: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }, __jsx("a", {
+      style: {
+        fontSize: '20px'
+      },
+      className: "nav-link text-primary",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, "Home"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "about",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    }, __jsx("a", {
+      style: {
+        fontSize: '20px'
+      },
+      className: "nav-link text-primary",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, "About")))))));
+  }
+
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/shared/footer.scss":
+/*!***************************************!*\
+  !*** ./components/shared/footer.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -1564,6 +1771,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function Index() {
   return __jsx(_components_layout_BaseLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Rijyan Hossain | Portfolio",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -1593,7 +1801,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -1756,17 +1964,6 @@ module.exports = require("react-typed");
 /***/ (function(module, exports) {
 
 module.exports = require("reactstrap");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ }),
 
