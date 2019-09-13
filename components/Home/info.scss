@@ -773,6 +773,71 @@ img {
         font-size: 18px;
         color: rgb(68, 68, 68);
         position: relative;
+        left: -37px;
+    } 
+    img { 
+        grid-area: image;
+        height: 340px;
+        border-radius: 1%;
+        position: relative;
+        box-shadow: 0px 0px 0px 0px;
+    } 
+    .cv { 
+        grid-area: cv;
+        height: 40px; 
+        width: 100%;
+        position: relative;
+        left: 5px;
+        padding-right: 10px;
+    }
+}
+
+
+// Middum mobile
+@media screen and (max-width: 355px) { 
+    .infoContainer { 
+        // width: 100%; 
+        // margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 20px; 
+        
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 50px 50px 50px;
+        grid-template-areas:
+           "image image image"
+           "name name name"
+           "typed self-typed self-typed"
+           "cv cv cv";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(49, 49, 49);
+        padding-left: 5px;
+        display: none;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 25px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        line-height: 50px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        position: relative;
         left: -30px;
     } 
     img { 
@@ -796,6 +861,70 @@ img {
 
 // Small mobile
 @media screen and (max-width: 330px) { 
+    .infoContainer { 
+        // width: 100%; 
+        // margin: 0 auto; 
+        background: rgb(255, 255, 255); 
+        padding: 20px; 
+        
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 50px 50px 50px;
+        grid-template-areas:
+           "image image image"
+           "name name name"
+           "typed self-typed self-typed"
+           "cv cv cv";
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }  
+    .hello { 
+        grid-area: title;
+        font-size: 30px;
+        color: rgb(49, 49, 49);
+        padding-left: 5px;
+        display: none;
+    }
+     
+    .name { 
+        grid-area: name;
+        font-size: 20px;
+        color: rgb(29, 29, 29);
+        padding-left: 5px;
+        line-height: 50px;
+    }
+    .typed { 
+        grid-area: typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+    } 
+    .self-typed { 
+        grid-area: self-typed;
+        font-size: 18px;
+        color: rgb(68, 68, 68);
+        position: relative;
+        left: -22px;
+    } 
+    img { 
+        grid-area: image;
+        height: 300px;
+        border-radius: 1%;
+        position: relative;
+        box-shadow: 0px 0px 0px 0px;
+    } 
+    .cv { 
+        grid-area: cv;
+        height: 40px; 
+        width: 100%;
+        position: relative;
+        left: 5px;
+        padding-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 315px) { 
     .infoContainer { 
         // width: 100%; 
         // margin: 0 auto; 
