@@ -29,7 +29,20 @@
   grid-area: title;
   font-size: 70px;
   color: #313131;
-  padding-left: 60px; }
+  padding-left: 60px;
+  position: relative;
+  animation-name: hello;
+  animation-duration: 1.5s; }
+
+@keyframes hello {
+  0% {
+    left: 0px; }
+  50% {
+    left: 50px; }
+  75% {
+    left: -20px; }
+  100% {
+    left: 0px; } }
 
 .name {
   grid-area: name;
