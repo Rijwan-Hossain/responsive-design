@@ -32,17 +32,23 @@
   padding-left: 60px;
   position: relative;
   animation-name: hello;
-  animation-duration: 1.5s; }
+  animation-duration: 1.7s; }
 
 @keyframes hello {
   0% {
     left: 0px; }
   50% {
-    left: 50px; }
-  75% {
-    left: -20px; }
+    left: 50px;
+    color: #33dee4; }
+  70% {
+    left: -20px;
+    color: #18d67e; }
+  85% {
+    left: 18px;
+    color: #18d67e; }
   100% {
-    left: 0px; } }
+    left: 0px;
+    color: #313131; } }
 
 .name {
   grid-area: name;
@@ -63,12 +69,32 @@
   position: relative;
   left: -92px; }
 
+.name, .typed, .self-typed {
+  animation-name: fade;
+  animation-duration: 2.5s; }
+
+@keyframes fade {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
+
 .cv {
   grid-area: cv;
   width: 150px;
   height: 40px;
   position: relative;
-  left: 60px; }
+  left: 60px;
+  animation-name: drag;
+  animation-duration: 3s; }
+
+@keyframes drag {
+  0% {
+    left: -1000px; }
+  70% {
+    left: -500px; }
+  100% {
+    left: 60px; } }
 
 img {
   grid-area: image;
@@ -134,7 +160,16 @@ img {
     width: 150px;
     height: 40px;
     position: relative;
-    left: 25px; } }
+    left: 25px;
+    animation-name: drag;
+    animation-duration: 3s; }
+  @keyframes drag {
+    0% {
+      left: -1000px; }
+    70% {
+      left: -500px; }
+    100% {
+      left: 25px; } } }
 
 @media screen and (max-width: 990px) {
   .infoContainer {
@@ -179,7 +214,16 @@ img {
     width: 150px;
     height: 40px;
     position: relative;
-    left: 25px; } }
+    left: 25px;
+    animation-name: drag;
+    animation-duration: 3s; }
+  @keyframes drag {
+    0% {
+      left: -1000px; }
+    70% {
+      left: -500px; }
+    100% {
+      left: 25px; } } }
 
 @media screen and (max-width: 900px) {
   .infoContainer {
@@ -223,7 +267,16 @@ img {
     width: 150px;
     height: 40px;
     position: relative;
-    left: 25px; } }
+    left: 25px;
+    animation-name: drag;
+    animation-duration: 3s; }
+  @keyframes drag {
+    0% {
+      left: -1000px; }
+    70% {
+      left: -500px; }
+    100% {
+      left: 25px; } } }
 
 @media screen and (max-width: 800px) {
   .infoContainer {
@@ -267,7 +320,16 @@ img {
     width: 150px;
     height: 40px;
     position: relative;
-    left: 25px; } }
+    left: 25px;
+    animation-name: drag;
+    animation-duration: 3s; }
+  @keyframes drag {
+    0% {
+      left: -1000px; }
+    70% {
+      left: -500px; }
+    100% {
+      left: 25px; } } }
 
 @media screen and (max-width: 770px) {
   .infoContainer {
@@ -312,7 +374,16 @@ img {
     width: 150px;
     height: 40px;
     position: relative;
-    left: 5px; } }
+    left: 5px;
+    animation-name: drag;
+    animation-duration: 3s; }
+  @keyframes drag {
+    0% {
+      left: -1000px; }
+    70% {
+      left: -600px; }
+    100% {
+      left: 5px; } } }
 
 @media screen and (max-width: 650px) {
   .infoContainer {
@@ -356,7 +427,16 @@ img {
     width: 150px;
     height: 40px;
     position: relative;
-    left: 5px; } }
+    left: 5px;
+    animation-name: drag;
+    animation-duration: 3s; }
+  @keyframes drag {
+    0% {
+      left: -1000px; }
+    70% {
+      left: -600px; }
+    100% {
+      left: 5px; } } }
 
 @media screen and (max-width: 600px) {
   .infoContainer {

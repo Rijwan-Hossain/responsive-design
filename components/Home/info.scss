@@ -74,6 +74,27 @@
     position: relative;
     left: -92px;
 } 
+
+
+.name, .typed, .self-typed { 
+    animation-name: fade;
+    animation-duration: 2.5s;
+} 
+
+
+@keyframes fade { 
+    0% { 
+        opacity: 0.1;
+    } 
+    100% { 
+        opacity: 1;
+    } 
+} 
+
+
+
+
+
  
 .cv { 
     grid-area: cv;
@@ -81,8 +102,27 @@
     height: 40px; 
     position: relative;
     left: 60px;
+
+    animation-name: drag;
+    animation-duration: 3s;
 }
- 
+
+
+
+@keyframes drag {
+    0% {
+        left: -1000px;
+    } 
+    70% {
+        left: -500px;
+    }
+    100% {
+        left: 60px;
+    }
+}
+
+
+
 
 img { 
     grid-area: image;
@@ -176,7 +216,15 @@ img {
         height: 40px; 
         position: relative;
         left: 25px;
+        animation-name: drag;
+        animation-duration: 3s;
     }
+    
+    @keyframes drag { 
+        0% { left: -1000px; } 
+        70% { left: -500px; } 
+        100% { left: 25px; } 
+    } 
 } 
 
 
@@ -240,7 +288,15 @@ img {
         height: 40px; 
         position: relative;
         left: 25px;
+        animation-name: drag;
+        animation-duration: 3s;
     }
+    
+    @keyframes drag { 
+        0% { left: -1000px; } 
+        70% { left: -500px; } 
+        100% { left: 25px; } 
+    } 
 } 
 
 
@@ -307,7 +363,16 @@ img {
         height: 40px; 
         position: relative;
         left: 25px;
+        animation-name: drag;
+        animation-duration: 3s;
     }
+    
+
+    @keyframes drag { 
+        0% { left: -1000px; } 
+        70% { left: -500px; } 
+        100% { left: 25px; } 
+    } 
 } 
 
 
@@ -370,7 +435,15 @@ img {
         height: 40px; 
         position: relative;
         left: 25px;
-    }
+        animation-name: drag;
+        animation-duration: 3s;
+    } 
+    
+    @keyframes drag { 
+        0% { left: -1000px; } 
+        70% { left: -500px; } 
+        100% { left: 25px; } 
+    } 
 } 
 
 // Big mobile
@@ -418,6 +491,8 @@ img {
         position: relative;
         left: -40px;
     } 
+
+    
     img { 
         grid-area: image;
         height: 180px;
@@ -432,6 +507,15 @@ img {
         height: 40px; 
         position: relative;
         left: 5px;
+        animation-name: drag;
+        animation-duration: 3s;
+    } 
+
+    
+    @keyframes drag {
+        0% { left: -1000px; } 
+        70% { left: -600px; }
+        100% { left: 5px; }
     }
 } 
 
@@ -495,6 +579,14 @@ img {
         height: 40px; 
         position: relative;
         left: 5px;
+        animation-name: drag;
+        animation-duration: 3s;
+    } 
+    
+    @keyframes drag {
+        0% { left: -1000px; } 
+        70% { left: -600px; }
+        100% { left: 5px; }
     }
 } 
 
@@ -522,8 +614,7 @@ img {
         font-size: 30px;
         color: rgb(49, 49, 49);
         padding-left: 5px;
-    }
-     
+    }   
     .name { 
         grid-area: name;
         font-size: 18px;
@@ -558,6 +649,7 @@ img {
         position: relative;
         left: 5px;
     }
+    
 } 
 
 
