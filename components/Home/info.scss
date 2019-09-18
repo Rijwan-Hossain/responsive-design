@@ -34,22 +34,10 @@
 
 @keyframes hello { 
     0% { left: 0px; } 
-    50% { 
-        left: 50px; 
-        color: rgb(51, 222, 228);
-    } 
-    70% { 
-        left: -20px; 
-        color: rgb(24, 214, 126);
-    } 
-    85% { 
-        left: 18px; 
-        color: rgb(24, 214, 126);
-    } 
-    100% { 
-        left: 0px; 
-        color: rgb(49, 49, 49);
-    } 
+    50% { left: 50px; } 
+    70% { left: -20px; } 
+    85% { left: 18px; } 
+    100% { left: 0px; } 
 } 
 
 
