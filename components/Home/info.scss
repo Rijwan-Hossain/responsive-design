@@ -29,16 +29,17 @@
     position: relative;
 
     animation-name: hello;
-    animation-duration: 1.1s;
+    animation-duration: 1.5s;
 } 
 
 @keyframes hello { 
     0% { top: 0px; } 
-    20% { top: -70px; } 
+    25% { top: -70px; } 
     40% { top: 0px; } 
-    60% { top: -45px; } 
-    80% { top: 0px; } 
-    90% { top: -20px; } 
+    55% { top: -50px; } 
+    68% { top: 0px; } 
+    80% { top: -30px; } 
+    90% { top: 0px; } 
     100% { top: 0px; } 
 } 
 
