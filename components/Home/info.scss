@@ -91,10 +91,6 @@
     } 
 } 
 
-
-
-
-
  
 .cv { 
     grid-area: cv;
@@ -107,13 +103,11 @@
     animation-duration: 2s;
 }
 
-
-
 @keyframes drag {
     0% {
         left: -1000px;
     } 
-    80% {
+    60% {
         left: -500px;
     }
     100% {
@@ -222,7 +216,7 @@ img {
     
     @keyframes drag { 
         0% { left: -1000px; } 
-        80% { left: -500px; } 
+        60% { left: -500px; } 
         100% { left: 25px; } 
     } 
 } 
@@ -294,7 +288,7 @@ img {
     
     @keyframes drag { 
         0% { left: -1000px; } 
-        80% { left: -500px; } 
+        60% { left: -500px; } 
         100% { left: 25px; } 
     } 
 } 
@@ -370,7 +364,7 @@ img {
 
     @keyframes drag { 
         0% { left: -1000px; } 
-        80% { left: -500px; } 
+        60% { left: -500px; } 
         100% { left: 25px; } 
     } 
 } 
@@ -441,7 +435,7 @@ img {
     
     @keyframes drag { 
         0% { left: -1000px; } 
-        80% { left: -500px; } 
+        60% { left: -500px; } 
         100% { left: 25px; } 
     } 
 } 
@@ -514,7 +508,7 @@ img {
     
     @keyframes drag {
         0% { left: -1000px; } 
-        80% { left: -600px; }
+        60% { left: -600px; }
         100% { left: 5px; }
     }
 } 
@@ -585,7 +579,7 @@ img {
     
     @keyframes drag {
         0% { left: -1000px; } 
-        80% { left: -600px; }
+        60% { left: -600px; }
         100% { left: 5px; }
     }
 } 
