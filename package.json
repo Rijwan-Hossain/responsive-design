@@ -20,9 +20,6 @@
   },
   "homepage": "https://github.com/Rijwan-Hossain/responsive-design#readme",
   "dependencies": { 
-    "@chakra-ui/core": "^0.2.8",
-    "@emotion/core": "^10.0.17",
-    "@emotion/styled": "^10.0.17",
     "@zeit/next-css": "^1.0.1", 
     "@zeit/next-sass": "^1.0.1", 
     "bootstrap": "^4.3.1", 
