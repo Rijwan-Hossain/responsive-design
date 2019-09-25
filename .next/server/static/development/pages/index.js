@@ -357,7 +357,7 @@ function Projects() {
     __self: this
   }, __jsx("p", {
     style: {
-      background: 'rgb(246 246 246)',
+      background: 'rgb(225 225 225)',
       height: '50px',
       lineHeight: '50px',
       textAlign: 'center',
@@ -410,7 +410,7 @@ function Projects() {
     __self: this
   }, __jsx("p", {
     style: {
-      background: 'rgb(246 246 246)',
+      background: 'rgb(225 225 225)',
       height: '50px',
       lineHeight: '50px',
       textAlign: 'center',
@@ -463,7 +463,7 @@ function Projects() {
     __self: this
   }, __jsx("p", {
     style: {
-      background: 'rgb(246 246 246)',
+      background: 'rgb(225 225 225)',
       height: '50px',
       lineHeight: '50px',
       textAlign: 'center',
