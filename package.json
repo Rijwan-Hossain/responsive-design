@@ -1,37 +1,37 @@
-{
-  "name": "responsive-design",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
-    "type": "git",
+{ 
+  "name": "responsive-design", 
+  "version": "1.0.0", 
+  "description": "", 
+  "main": "index.js", 
+  "scripts": { 
+    "dev": "next", 
+    "build": "next build", 
+    "start": "next start -p $PORT", 
+    "heroku-postbuild": "npm run build" 
+  }, 
+  "repository": { 
+    "type": "git", 
     "url": "git+https://github.com/Rijwan-Hossain/responsive-design.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
+  }, 
+  "author": "", 
+  "license": "ISC", 
+  "bugs": { 
     "url": "https://github.com/Rijwan-Hossain/responsive-design/issues"
   },
   "homepage": "https://github.com/Rijwan-Hossain/responsive-design#readme",
-  "dependencies": {
+  "dependencies": { 
     "@chakra-ui/core": "^0.2.8",
     "@emotion/core": "^10.0.17",
     "@emotion/styled": "^10.0.17",
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
-    "bootstrap": "^4.3.1",
-    "emotion-theming": "^10.0.19",
-    "font-awesome": "^4.7.0",
-    "next": "^9.0.5",
-    "node-sass": "^4.12.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-typed": "^1.2.0",
-    "reactstrap": "^8.0.1"
-  }
-}
+    "@zeit/next-css": "^1.0.1", 
+    "@zeit/next-sass": "^1.0.1", 
+    "bootstrap": "^4.3.1", 
+    "font-awesome": "^4.7.0", 
+    "next": "^9.0.5", 
+    "node-sass": "^4.12.0", 
+    "react": "^16.9.0", 
+    "react-dom": "^16.9.0", 
+    "react-typed": "^1.2.0", 
+    "reactstrap": "^8.0.1" 
+  } 
+} 
