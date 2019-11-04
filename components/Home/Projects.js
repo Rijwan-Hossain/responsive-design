@@ -43,7 +43,7 @@ function Projects() {
                         className="sc btn btn-success" 
                         target="_blank"
                         href="#">
-                        Live: Coming Soon
+                        Live Demo: Coming Soon
                     </a>
                 </div> 
 
