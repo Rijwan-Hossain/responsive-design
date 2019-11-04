@@ -31,19 +31,19 @@ function Projects() {
                         lineHeight: '100px', 
                         textAlign: 'center'
                     }}>
-                        Diet Planner
+                        Meet Twitt 
                     </h4>
                     <a 
                         className="sc btn btn-primary" 
                         target="_blank"
-                        href="https://github.com/Rijwan-Hossain/Diet-Planner">
+                        href="https://github.com/Rijwan-Hossain/twitter-clone">
                         Source Code 
                     </a>
                     <a 
                         className="sc btn btn-success" 
                         target="_blank"
                         href="https://my-diet-planner.herokuapp.com/">
-                        Live Demo
+                        Live: Coming Soon
                     </a>
                 </div> 
 
