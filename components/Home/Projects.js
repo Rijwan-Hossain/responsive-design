@@ -42,7 +42,7 @@ function Projects() {
                     <a 
                         className="sc btn btn-success" 
                         target="_blank"
-                        href="https://my-diet-planner.herokuapp.com/">
+                        href="#">
                         Live: Coming Soon
                     </a>
                 </div> 
